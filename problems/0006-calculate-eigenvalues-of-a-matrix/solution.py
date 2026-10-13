@@ -18,7 +18,7 @@ def calculate_eigenvalues(matrix: list[list[float|int]]) -> list[float]:
 	# because suppose we call it M, M^-1 @ M = identity matrix, which will allow |x, y| to be |0, 0|
 	# Since no inverse, means determinant (i.e. the product of main diagonal - product of other diagonal) is 0
 	# Solving this: (2 - eigenvalue)(2 - eigenvalue) - 1 * 1 = 0 =>  eigenvalue^2 - 4 *  eigenvalue + 4 - 1 = 0
-
+	# For a 2 by 2 matrix, this is eigenvalue^2 - trace * eigenvalue + determinant = 0
 	trace = matrix[0][0] + matrix[1][1]
 	det = matrix[0][0] * matrix[1][1] - matrix[1][0] * matrix[0][1]
 	res = [(trace + (trace**2 - 4*det)**0.5)/2, (trace - (trace**2 - 4*det)**0.5)/2]
