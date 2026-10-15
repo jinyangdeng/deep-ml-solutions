@@ -4,6 +4,7 @@ def k_means_clustering(points: list[tuple[float, ...]], k: int, initial_centroid
 		return sum((e1-e2) ** 2 for e1, e2 in zip(pointX, pointY))
 
 	def calc_centroid(cluster: list[tuple[float, ...]]):
+		# You can just use np.average(cluster, axis=0)
 		cluster_size = len(cluster)
 		return tuple(sum(dim) / cluster_size for dim in zip(*cluster))
 
