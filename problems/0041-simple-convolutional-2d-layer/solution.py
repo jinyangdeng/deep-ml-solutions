@@ -1,6 +1,10 @@
 import numpy as np
 
 def simple_conv2d(input_matrix: np.ndarray, kernel: np.ndarray, padding: int, stride: int):
+	# 学会了 numpy.pad，今后不用手搓
+	# 学会了如何计算 output_height 与 output_width
+	# i.e. (original_dim + 2 * padding - kernel_dim) // stride + 1 
+	# 学会了如何在矩阵里直接选择区域, [i:..., j:...]
 	input_height, input_width = input_matrix.shape
 	kernel_height, kernel_width = kernel.shape
 
