@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**20** solved · 16 problems · 0 labs · 4 math
+**21** solved · 17 problems · 0 labs · 4 math
 
 ![Coverage](./coverage.svg)
 
@@ -17,6 +17,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Feature Scaling Implementation](https://www.deep-ml.com/problems/16) | easy | 2026-10-13 | [solution](problems/0016-feature-scaling-implementation) |
 | [Linear Regression Using Normal Equation](https://www.deep-ml.com/problems/14) | easy | 2026-10-13 | [solution](problems/0014-linear-regression-using-normal-equation) |
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2026-10-13 | [solution](problems/0001-matrix-vector-dot-product) |
+| [Scalar Multiplication of a Matrix](https://www.deep-ml.com/problems/5) | easy | 2026-10-17 | [solution](problems/0005-scalar-multiplication-of-a-matrix) |
 | [Single Neuron](https://www.deep-ml.com/problems/24) | easy | 2026-10-13 | [solution](problems/0024-single-neuron) |
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2026-10-17 | [solution](problems/0002-transpose-of-a-matrix) |
 | [Vector Element-wise Sum](https://www.deep-ml.com/problems/121) | easy | 2026-10-17 | [solution](problems/0121-vector-element-wise-sum) |
