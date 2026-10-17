@@ -13,8 +13,6 @@ def quotient_rule_derivative(g_coeffs: list, h_coeffs: list, x: float) -> float:
         The derivative value f'(x)
     """
     # Your code here
-    if x == 0:
-        return -1
     g_coeffs.reverse()
     h_coeffs.reverse()
 
@@ -27,12 +25,12 @@ def quotient_rule_derivative(g_coeffs: list, h_coeffs: list, x: float) -> float:
         h_x += (coeff * (x ** idx))
     
     g_p_x = 0
-    for idx, coeff in enumerate(g_coeffs):
-        g_p_x += (coeff * idx * (x ** (idx - 1)))
+    for idx, coeff in enumerate(g_coeffs[1:]):
+        g_p_x += (coeff * (idx + 1) * (x ** idx))
 
     h_p_x = 0
-    for idx, coeff in enumerate(h_coeffs):
-        h_p_x += (coeff * idx * (x ** (idx - 1)))
+    for idx, coeff in enumerate(h_coeffs[1:]):
+        h_p_x += (coeff * (idx + 1) * (x ** idx))
     
     return (g_p_x * h_x - g_x * h_p_x) / (h_x ** 2)
     
