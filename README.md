@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**10** solved · 10 problems · 0 labs · 0 math
+**11** solved · 10 problems · 0 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -22,6 +22,12 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [K-Means Clustering](https://www.deep-ml.com/problems/17) | medium | 2026-10-15 | [solution](problems/0017-k-means-clustering) |
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-10-13 | [solution](problems/0009-matrix-times-matrix) |
 | [Simple Convolutional 2D Layer](https://www.deep-ml.com/problems/41) | medium | 2026-10-15 | [solution](problems/0041-simple-convolutional-2d-layer) |
+
+## Math
+
+| | Difficulty | Solved | |
+| --- | --- | --- | --- |
+| [Vector Operations](https://www.deep-ml.com/math-problems/7) | easy | 2026-10-17 | [solution](math/0007-vector-operations) |
 
 ---
 
