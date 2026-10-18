@@ -16,6 +16,7 @@ def descriptive_statistics(data: list | np.ndarray) -> dict:
     return {
         "mean": np.mean(data),
         "median": np.percentile(data, 50),
+        # np.argmax(np.bincount(data)) fails when there are negative elements
         "mode": Counter(data).most_common(1)[0][0],
         "variance": np.var(data),
         "standard_deviation": np.var(data) ** 0.5,
