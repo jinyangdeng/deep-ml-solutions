@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T03:11:01.623Z",
+  "generated_at": "2026-10-18T03:19:35.939Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -370,6 +370,19 @@
       "path": "problems/0015-linear-regression-using-gradient-descent",
       "first_solved_at": "2026-10-18T03:11:01.100Z",
       "last_pushed_at": "2026-10-18T03:11:01.100Z",
+      "language": "python",
+      "lines": 26
+    },
+    "problem:78": {
+      "kind": "problem",
+      "id": "78",
+      "title": "Descriptive Statistics Calculator",
+      "difficulty": "easy",
+      "category": "Statistics",
+      "url": "https://www.deep-ml.com/problems/78",
+      "path": "problems/0078-descriptive-statistics-calculator",
+      "first_solved_at": "2026-10-18T03:19:35.457Z",
+      "last_pushed_at": "2026-10-18T03:19:35.457Z",
       "language": "python",
       "lines": 26
     }
