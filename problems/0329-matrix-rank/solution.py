@@ -12,6 +12,7 @@ def matrix_rank(A: np.ndarray, tol: float = 1e-10) -> int:
         The rank of the matrix (integer)
     """
     # Your code here
+    # Borrowed pivoting logic from https://www.deep-ml.com/problems/58
     A = np.array(A, dtype=float)
     num_rows, num_cols = A.shape
     for k in range(0, num_rows - 1):
