@@ -31,7 +31,7 @@ def matrix_rank(A: np.ndarray, tol: float = 1e-10) -> int:
                 A[i, j] -= m_ik * A[k, j]
 
     for i in range(num_rows):
-        if np.sum(np.abs(A[i])) <= tol:
+        if np.all(np.abs(A[i]) <= tol):
             return i
     
     return num_rows
