@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:20:39.128Z",
+  "generated_at": "2026-10-30T13:54:49.842Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -558,6 +558,19 @@
       "path": "math/0032-softmax-and-cross-entropy",
       "first_solved_at": "2026-10-29T15:20:38.128Z",
       "last_pushed_at": "2026-10-29T15:20:38.128Z"
+    },
+    "problem:66": {
+      "kind": "problem",
+      "id": "66",
+      "title": "Implement Orthogonal Projection of a Vector onto a Line",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/66",
+      "path": "problems/0066-implement-orthogonal-projection-of-a-vector-onto-a-line",
+      "first_solved_at": "2026-10-30T13:54:48.954Z",
+      "last_pushed_at": "2026-10-30T13:54:48.954Z",
+      "language": "python",
+      "lines": 12
     }
   }
 }
