@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**51** solved · 31 problems · 0 labs · 20 math
+**52** solved · 32 problems · 0 labs · 20 math
 
 ![Coverage](./coverage.svg)
 
@@ -16,6 +16,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Calculate Mean by Row or Column](https://www.deep-ml.com/problems/4) | easy | 2026-10-18 | [solution](problems/0004-calculate-mean-by-row-or-column) |
 | [Check Linear Independence of Vectors](https://www.deep-ml.com/problems/331) | easy | 2026-10-30 | [solution](problems/0331-check-linear-independence-of-vectors) |
 | [Derivative of a Polynomial](https://www.deep-ml.com/problems/116) | easy | 2026-10-17 | [solution](problems/0116-derivative-of-a-polynomial) |
+| [Derivatives of Activation Functions](https://www.deep-ml.com/problems/217) | easy | 2026-10-31 | [solution](problems/0217-derivatives-of-activation-functions) |
 | [Descriptive Statistics Calculator](https://www.deep-ml.com/problems/78) | easy | 2026-10-18 | [solution](problems/0078-descriptive-statistics-calculator) |
 | [Dot Product Calculator](https://www.deep-ml.com/problems/83) | easy | 2026-10-17 | [solution](problems/0083-dot-product-calculator) |
 | [Empirical Probability Mass Function (PMF)](https://www.deep-ml.com/problems/184) | easy | 2026-10-18 | [solution](problems/0184-empirical-probability-mass-function-pmf) |
