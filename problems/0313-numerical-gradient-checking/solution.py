@@ -28,5 +28,7 @@ def numerical_gradient_check(f, x, analytical_grad, epsilon=1e-7):
 	
     diff = numerical_grad - analytical_grad
     sum_of_norms = np.linalg.norm(numerical_grad) + np.linalg.norm(analytical_grad)
+
+    # relative_error = ||numerical_grad - analytical_grad|| / (||numerical_grad|| + ||analytical_grad||)
     relative_error = np.linalg.norm(diff) / sum_of_norms if sum_of_norms != 0 else 0
     return (numerical_grad, relative_error)
