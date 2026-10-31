@@ -14,6 +14,7 @@ def numerical_gradient_check(f, x, analytical_grad, epsilon=1e-7):
         tuple: (numerical_grad, relative_error)
     """
     # Your code here
+    # This is highly similar to https://www.deep-ml.com/problems/202, when m = 1
     n = len(analytical_grad)
     numerical_grad = np.zeros(n)
 	
