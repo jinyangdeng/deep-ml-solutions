@@ -10,9 +10,12 @@ def softmax_derivative(x: list[float]) -> list[list[float]]:
 	Returns:
 		Jacobian matrix J where J[i][j] = d(softmax_i)/d(x_j)
 	"""
+	# softmax function
 	def f(x):
 		return np.exp(x) / np.sum(np.exp(x))
 	h = 1e-5
+	
+	# Copied directly from https://www.deep-ml.com/problems/202
 	# Your code here
 	n = len(x)
 	m = len(f(x))
