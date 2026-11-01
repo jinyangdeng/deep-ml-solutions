@@ -25,5 +25,5 @@ def simulate_clt(distribution: str, n: int, runs: int = 10000, seed: int = 42) -
         data = (np.random.rand(runs, n) < 0.3).astype(float)
         mu, sigma = 0.3, np.sqrt(0.3 * 0.7)
 
-    means = (np.mean(data, axis=1) - mu) / (sigma / np.sqrt(n))
-    return {'mean': np.mean(means), 'std': np.std(means)}
+    z = (np.mean(data, axis=1) - mu) / (sigma / np.sqrt(n))
+    return {'mean': np.mean(z), 'std': np.std(z)}
