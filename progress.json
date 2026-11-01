@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:24:17.239Z",
+  "generated_at": "2026-11-01T03:25:14.560Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -723,6 +723,17 @@
       "path": "math/0021-common-distributions-i-bernoulli-binomial-uniform",
       "first_solved_at": "2026-11-01T03:24:15.706Z",
       "last_pushed_at": "2026-11-01T03:24:15.706Z"
+    },
+    "math:22": {
+      "kind": "math",
+      "id": "22",
+      "title": "Common Distributions II: Normal, Poisson, Exponential",
+      "difficulty": "medium",
+      "category": "Probability and Statistics for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/22",
+      "path": "math/0022-common-distributions-ii-normal-poisson-exponential",
+      "first_solved_at": "2026-11-01T03:25:13.096Z",
+      "last_pushed_at": "2026-11-01T03:25:13.096Z"
     }
   }
 }
