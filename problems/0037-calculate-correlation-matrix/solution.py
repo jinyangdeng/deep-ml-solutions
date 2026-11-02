@@ -10,4 +10,15 @@ def calculate_correlation_matrix(X, Y=None):
 		return np.corrcoef(X.T)
 
 	num_features = X.shape[1]
+	# Note that np.corrcoef(X.T, Y.T) wouldn't work right away, because numpy's implementation for corrcoef is not what we thought
+	# We wish for cross-correlation.
+	# But Numpy is actually stacking X.T and Y.T vertically (i.e. we are introducing more variables for each observation)
+	# As such, the correlation matrix is now
+	#     x_1 | x_2 | y_1 | y_2
+	# x_1 
+	# x_2
+	# y_1
+	# y_2 
+	# By [:num_features, num_features:], we take the right upper corner.
+	# (The bottom-left [num_features:, :num_features] block is its transpose: rows y, cols x.)
 	return np.corrcoef(X.T, Y.T)[:num_features, num_features:]
