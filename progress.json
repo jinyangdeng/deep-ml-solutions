@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T11:39:57.900Z",
+  "generated_at": "2026-11-02T16:28:35.573Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -847,6 +847,19 @@
       "path": "math/0036-multivariate-gaussians",
       "first_solved_at": "2026-11-01T11:39:56.219Z",
       "last_pushed_at": "2026-11-01T11:39:56.219Z"
+    },
+    "problem:37": {
+      "kind": "problem",
+      "id": "37",
+      "title": "Calculate Correlation Matrix",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/37",
+      "path": "problems/0037-calculate-correlation-matrix",
+      "first_solved_at": "2026-11-02T16:28:34.605Z",
+      "last_pushed_at": "2026-11-02T16:28:34.605Z",
+      "language": "python",
+      "lines": 13
     }
   }
 }
