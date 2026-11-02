@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:49:18.466Z",
+  "generated_at": "2026-11-02T17:06:25.297Z",
   "items": {
     "problem:9": {
       "kind": "problem",
@@ -860,6 +860,19 @@
       "last_pushed_at": "2026-11-02T16:49:17.460Z",
       "language": "python",
       "lines": 24
+    },
+    "problem:214": {
+      "kind": "problem",
+      "id": "214",
+      "title": "Chain Rule for Composite Functions",
+      "difficulty": "medium",
+      "category": "Calculus",
+      "url": "https://www.deep-ml.com/problems/214",
+      "path": "problems/0214-chain-rule-for-composite-functions",
+      "first_solved_at": "2026-11-02T17:06:24.199Z",
+      "last_pushed_at": "2026-11-02T17:06:24.199Z",
+      "language": "python",
+      "lines": 45
     }
   }
 }
